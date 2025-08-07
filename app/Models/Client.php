@@ -11,6 +11,7 @@ use Illuminate\Contracts\Auth\Authenticatable;
 
 /**
  * @property bool $is_active
+ * @property string|null $remember_token
  */
 class Client extends Model implements Authenticatable
 {
